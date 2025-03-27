@@ -1,4 +1,9 @@
 spring:
+  data:
+    mongodb:
+      database: BlackListed
+      host: localhost
+      port: 27017
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root
@@ -6,4 +11,4 @@ spring:
     username: root
   jpa:
     hibernate:
-      ddl-auto: update 
+      ddl-auto: update
